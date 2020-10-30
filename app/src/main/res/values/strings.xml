@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Business</string>
+    <string name="amir_serry_office">Amir Serry Office</string>
+    <string name="my_business">my_business</string>
+    <string name="phone">Phone:</string>
+    <string name="phoneNumber">+201223760324</string>
+    <string name="email">Email:</string>
+    <string name="info_amirserry_com">info@amirserry.com</string>
+    <string name="website">Website:</string>
+    <string name="www_amirserry_com">www.amirserry.com</string>
+    <string name="description">Desc: </string>
+    <string name="description_data">Effective coaches, Trainers and Mentors who are committed to lead specially gifted teams. </string>
+    description_data
+</resources>

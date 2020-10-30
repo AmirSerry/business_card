@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@android:color/holo_orange_light"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/business_name"
+        android:text="@string/amir_serry_office"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_weight="0.5"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/card"
+        android:layout_weight="2"
+        android:contentDescription="@string/my_business" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+    <TextView
+        android:id="@+id/desc_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/description"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/description_data"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/desc_id"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/phone_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/phone"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:autoLink="phone"
+            android:text="@string/phoneNumber"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/phone_id"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <TextView
+            android:id="@+id/email_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/email"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/info_amirserry_com"
+            android:autoLink="email"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/email_id"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <TextView
+            android:id="@+id/website_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/website"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/www_amirserry_com"
+            android:autoLink="web"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/website_id"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
